@@ -8,6 +8,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./apps/flask/overlays/prod
+  path: ./apps/flask/overlays/prod/kustomization.yaml
   prune: true
   wait: true
